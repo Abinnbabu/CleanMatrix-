@@ -111,7 +111,9 @@ npm start
 ### 4. Run the YOLO detection model
 ```bash
 cd ai
-pip install -r requirements.txt
+python -m venv venv
+venv\Scripts\activate
+pip install ultralytics opencv-python requests torch torchvision
 python waste_detection.py
 ```
 
@@ -133,13 +135,12 @@ cleanmatrix/
 │
 ├── backend/                  # Express backend
 │   ├── routes/
-│   │   └── bins.js          # CRUD + reset endpoints
+│   │   └── binRoutes.js          # CRUD + reset endpoints
 │   └── models/
 │       └── Bin.js           # MongoDB bin schema
 │
-└── detection/               # Python YOLO model
-    ├── detect.py            # Main detection script
-    └── requirements.txt
+└── ai/               # Python YOLO model
+    ├── waste_detection.py            # Main detection script
 ```
 
 ---
