@@ -96,23 +96,23 @@ cd cleanmatrix
 
 ### 2. Start the backend
 ```bash
-cd server
+cd backend
 npm install
 npm start
 ```
 
 ### 3. Start the frontend
 ```bash
-cd client
+cd frontend
 npm install
 npm start
 ```
 
 ### 4. Run the YOLO detection model
 ```bash
-cd detection
+cd ai
 pip install -r requirements.txt
-python detect.py
+python waste_detection.py
 ```
 
 > Make sure the `BINS_API_URL` in `detect.py` points to your running backend.
