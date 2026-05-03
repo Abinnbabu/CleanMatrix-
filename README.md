@@ -117,7 +117,7 @@ pip install ultralytics opencv-python requests torch torchvision
 python waste_detection.py
 ```
 
-> Make sure the `BINS_API_URL` in `detect.py` points to your running backend.
+> Make sure the `BINS_API_URL` in `waste_detection.py` points to your running backend.
 
 ---
 
