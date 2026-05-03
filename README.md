@@ -98,7 +98,7 @@ cd cleanmatrix
 ```bash
 cd backend
 npm install
-npm start
+node server.js
 ```
 
 ### 3. Start the frontend
@@ -128,8 +128,8 @@ cleanmatrix/
 ├── frontend/                  # React frontend
 │   └── src/
 │       ├── pages/
-│       │   ├── Home.jsx     # Admin dashboard
-│       │   └── UHome.jsx    # Collector dashboard
+│       │   ├── Home.js     # Admin dashboard
+│       │   └── UHome.js    # Collector dashboard
 │       └── api/
 │           └── bins.js      # API base URL config
 │
