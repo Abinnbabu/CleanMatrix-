@@ -123,7 +123,7 @@ python waste_detection.py
 
 ```
 cleanmatrix/
-├── client/                  # React frontend
+├── frontend/                  # React frontend
 │   └── src/
 │       ├── pages/
 │       │   ├── Home.jsx     # Admin dashboard
@@ -131,7 +131,7 @@ cleanmatrix/
 │       └── api/
 │           └── bins.js      # API base URL config
 │
-├── server/                  # Express backend
+├── backend/                  # Express backend
 │   ├── routes/
 │   │   └── bins.js          # CRUD + reset endpoints
 │   └── models/
@@ -167,7 +167,7 @@ cleanmatrix/
 
 ## 👨‍💻 Author
 
-**Abin** — B.Tech CSE, MBITS
+**Abin Babu** — B.Tech CSE, MBITS
 
 ---
 
